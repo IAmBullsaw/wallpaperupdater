@@ -1,6 +1,14 @@
 # Wallpaperupdater
 This is supposed to be a prank, to automatically set the wallpaper of an Ubuntu machine to some specific file.
 
+## How to
+1. Copy a .jpg into this folder.
+2. Name it "cool_bg.jpg"
+3. run copy.sh on pranked computer
+4. prank enabled
+5. snicker
+
+
 ## script.py
 This small script sets a wallpaper to specific file.
 
