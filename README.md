@@ -3,12 +3,14 @@ This script is used to automatically set the wallpaper of an Ubuntu machine to s
 
 ## How to enable it :)
 1. run copy.sh on your computer
-2. script now runs every hour at 42
+
+Script now runs every hour at 42
 
 ## How to revert this :(
 First, if this was the one and only crontab job
-* remove all crontab jobs with
+Remove all crontab jobs with
 ```crontab -r```
+
 Else, edit the crontab by hand since i am lazy.
 ```crontab -e```
 
@@ -19,3 +21,8 @@ It also sets the environment variable that cron needs for actually doing this.
 ## copy.sh
 This script copies the script into the right folder, hiding them out of plain sight.
 This also sets up a crontab job, for running the script every hour at minute 42. Fun times.
+
+## remove.sh
+Script removes the files copied via copy.sh and generated via wget. These are:
+* cool_bg.jpg
+* script.sg
