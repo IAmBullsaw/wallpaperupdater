@@ -1,7 +1,7 @@
 # Wallpaperupdater
 This is supposed to be a prank, to automatically set the wallpaper of an Ubuntu machine to some specific file.
 
-## How to enable int :)
+## How to enable it :)
 1. Copy a .jpg into this folder.
 2. Name it "cool_bg.jpg"
 3. run copy.sh on pranked computer
