@@ -1,12 +1,11 @@
 # Wallpaperupdater
-This is supposed to be a prank, to automatically set the wallpaper of an Ubuntu machine to some specific file.
+This script is used to automatically set the wallpaper of an Ubuntu machine to some specific file.
 
 ## How to enable it :)
 1. Copy a .jpg into this folder.
 2. Name it "cool_bg.jpg"
-3. run copy.sh on pranked computer
-4. prank enabled
-5. snicker
+3. run copy.sh on your computer
+4. script now runs every hour at 42
 
 ## How to revert this :(
 First, if this was the one and only crontab job
