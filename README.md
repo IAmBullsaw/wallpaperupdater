@@ -17,7 +17,9 @@ Script removes all files and keeps this folder intact.
 
 ## wpu.sh
 This script is both the installer and uninstaller.
+
 Which to run is set via the flag ```-i``` or ```-u```.
+Flag ```-r``` is equivalent to ```./wpu.sh -u && ./wpu.sh -i```.
 Is no flag passed, nothing happens.
 
 ## script.sh
