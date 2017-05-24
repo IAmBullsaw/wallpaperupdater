@@ -26,6 +26,8 @@ if [ "$1" == "-i" ] || [ "$1" == "-install" ]; then
     install
 elif [ "$1" == "-u" ] || [ "$1" == "-uninstall" ]; then
     uninstall
+elif [ "$1" == "-r" ]; then
+    uninstall && install
 else
     echo $USAGE
 fi
