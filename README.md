@@ -22,6 +22,9 @@ Which to run is set via the flag ```-i``` or ```-u```.
 Flag ```-r``` is equivalent to ```./wpu.sh -u && ./wpu.sh -i```.
 Is no flag passed, nothing happens.
 
+### What it does
+Sets up a cron job to run script.h every hour at minute 42.
+
 ## script.sh
-This small script sets a wallpaper to one specific file chosen via the hard coded wget command.
-It also sets the environment variable that cron needs for actually doing this.
+First it checks if my website is up and running. If it is, a picture is pulled from it.
+This picture is then set as wallpaper.
